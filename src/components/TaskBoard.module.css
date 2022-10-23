@@ -1,0 +1,40 @@
+.taskBoard {
+  display: flex;
+  flex-direction: column;
+  width: 46rem;
+  margin-top: 4rem;
+}
+
+.taskBoard header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.emptyTaskBoard {
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  padding: 4rem 1.5rem;
+  margin-top: 1.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.emptyTaskBoard > img {
+  margin-bottom: 1rem;
+}
+
+.emptyTaskBoard > strong {
+  color: var(--gray-300);
+  line-height: 1.4;
+  font-size: 1rem;
+}
+
+.emptyTaskBoard > span {
+  color: var(--gray-300);
+  line-height: 1.4;
+  font-size: 1rem;
+}
